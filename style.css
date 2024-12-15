@@ -45,7 +45,7 @@ body {
 
 #side {
   height: 100%;
-  width: 60vw;
+  width: 40vw;
   position: relative;
 }
 
@@ -84,6 +84,16 @@ body {
       opacity: 0.6;
     }
   }
+}
+
+#main-content {
+  position: relative;
+  display: flex;
+  height: 100%;
+  flex: 1; 
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
 }
 
 @font-face {
