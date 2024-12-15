@@ -104,6 +104,10 @@ form {
   flex-direction: column;
   padding: 1.5rem 2.5rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 30%);
+  gap: 1rem;
+  .form-header {
+    color: rgb(74, 74, 74);
+  }
   .form-input {
     display: flex;
     flex-wrap: wrap;
