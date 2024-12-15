@@ -30,6 +30,11 @@ label {
   display: block;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* ================================== */
 
 body {
@@ -40,6 +45,38 @@ body {
 
 #side {
   height: 100%;
+  position: relative;
+}
+
+#side > img {
+  height: 100%;
+}
+
+.image-header,
+.image-footer {
+  position: absolute;
+}
+
+.image-header {
+  font-family: "pirata_oneregular", Times, serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 10rem;
+  background-color: rgba(0, 0, 0, 40%);
+  width: 100%;
+  height: 5rem;
+  >h1 {
+    color: white;
+    font-size: 3rem;
+  }
+}
+
+.image-footer {
+  text-align: center;
+  width: 100%;
+  bottom: 2px;
+  color: white;
 }
 
 @font-face {
