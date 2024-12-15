@@ -32,6 +32,16 @@ label {
 
 /* ================================== */
 
+body {
+  font-family: "Poppins", serif, sans-serif;
+  display: flex;
+  height: 100vh;
+}
+
+#side {
+  height: 100%;
+}
+
 @font-face {
   font-family: "pirata_oneregular";
   src: url("./font/pirataone-regular-webfont.woff2") format("woff2"),
@@ -39,4 +49,3 @@ label {
   font-weight: normal;
   font-style: normal;
 }
-
