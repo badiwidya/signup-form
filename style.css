@@ -45,6 +45,7 @@ body {
 
 #side {
   height: 100%;
+  width: 60vw;
   position: relative;
 }
 
