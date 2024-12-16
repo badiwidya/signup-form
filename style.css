@@ -172,6 +172,11 @@ input:focus {
   box-shadow: 0 0 10px #76331d;
 }
 
+input:user-invalid {
+  outline: 1px solid red;
+  box-shadow: 0 0 10px red;
+}
+
 @font-face {
   font-family: "pirata_oneregular";
   src: url("./font/pirataone-regular-webfont.woff2") format("woff2"),
