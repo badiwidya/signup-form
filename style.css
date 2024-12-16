@@ -122,7 +122,8 @@ form {
     }
     label {
       flex: 1 1 auto;
-      width: 18.75rem;
+      min-width: 18rem;
+      max-width: 18.75rem;
       margin-bottom: 0.5rem;
       input {
         width: 80%;
