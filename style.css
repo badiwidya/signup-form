@@ -202,6 +202,17 @@ input[type="email"]:user-invalid + span::after {
   margin: 0;
 }
 
+span.inv::after {
+  text-transform: none;
+  content: "*Password does not match.";
+  color: red;
+  font-size: 0.7rem;
+  letter-spacing: normal;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+
 input[type="tel"]:user-invalid + span::after {
   text-transform: none;
   content: "*Please enter a valid phone number.";
