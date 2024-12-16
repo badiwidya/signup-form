@@ -130,6 +130,7 @@ form {
         border: 1px solid rgba(0, 0, 0, 30%);
         border-radius: 5px;
         height: 2.1rem;
+        padding: 0 1ch;
       }
     }
   }
