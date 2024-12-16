@@ -174,8 +174,45 @@ input:focus {
 
 input:user-invalid {
   outline: 1px solid red;
-  box-shadow: 0 0 10px red;
 }
+
+input + span {
+  position: absolute;
+}
+
+input:required:user-invalid + span::after {
+    text-transform: none;
+    content: "*This field must not empty.";
+    color: red;
+    font-size: 0.7rem;
+    letter-spacing: normal;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+input[type="email"]:user-invalid + span::after {
+  text-transform: none;
+  content: "*Please enter a valid email address.";
+  color: red;
+  font-size: 0.7rem;
+  letter-spacing: normal;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+
+input[type="tel"]:user-invalid + span::after {
+  text-transform: none;
+  content: "*Please enter a valid phone number.";
+  color: red;
+  font-size: 0.7rem;
+  letter-spacing: normal;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+
 
 @font-face {
   font-family: "pirata_oneregular";
